@@ -1,0 +1,84 @@
+---
+title: "proposal-for-Collaborative-Research-Project"
+author: "Paired"
+date: "Sunday, October 19, 2014"
+output: 
+  html_document:
+    fig_caption: yes
+    number_sections: no
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+bibliography:
+    - Packages.bib
+    - Main.bib
+---
+
+# Load packages and create BibTeX file
+PackagesUsed <- c("ggplot2", "repmis")
+instal
+# Load PackagesUsed and create .bib BibTeX file
+# Note must have repmis package installed.
+repmis::LoadandCite(PackagesUsed, file = "Namenlos-1.bib", install = FALSE)
+
+######Topic:Foreign Direct Investment in Ethiopia: challenges and impacts in the manufacturing sector
+
+######1.1: Initial words and motivation:
+Industrialization is the evolution of shifting from a basic agrarian economy to an industrialized state. First Industrial Revolution in England was based on invention, the second in the U.S. and Germany on innovation. Late industrialization in the (newly industrial countries)NICs is based on learning (borrowed technology).(Amsden,1989). Recently, most developing countries have also experienced rapid industrialization for the last decade’s years. There are a lot of alternative attempts to explain the determinants factors and development strategy for these late industrialized countries.
+No doubt that changing first state economy to the next level want a commitment, scarification and a firm will. Almost all developed countries had paid the cost to get all the advantage of industrialization. It is the basis of sustainable economic development, the way increasing production, means to eliminate poverty and making a country wealthy, physically powerful and defensive. Here the question is why still developing countries lack the ability to transform their economy into the next phase.
+Industrialization plays a central role in the process of economic development.The experience of most of today’s advanced nations shows that economic development requires structural change from low to high productive sectors and the industrial sector is a key engine for such structural change. It can be argued that the high, rapid, and sustained economic growth and development witnessed in the past have been associated with industrialisation, particularly growth in the manufacturing sector (Szirmai 2009).
+
+The manufacturing sector offers special opportunities for capital accumulationin developing countries. Capital accumulation can be more easily realised in spatially concentrated manufacturing than in spatially dispersed agriculture. Since capital accumulation is one of the main sources of growth, an increasing share of the manufacturing sector will have considerable positive contribution to economic growth. Moreover, the manufacturing sector offers special opportunities for economies of scale, and technological progress which are less available in agriculture or services. Linkage and spill-over effectsare also stronger in manufacturing than in agriculture or service sectors (Szirmai 2009). These are some of the reasons why the expansion of the manufacturing sector has been so important in growth and development. In light of this, most developing countries are trying to improve the manufacturing sector by crafting supportive policies and taking various measures which are deemed to improve the sector.(EEA,2013).
+
+######1.2: Statement of the Problem
+No doubt that, Ethiopia has been experienced a remarkable double digit (10%) average economic growth for the last consecutive years. However, a broad social, economic, and political indicator, put the country among the poorest state in the world. Consequently, Ethiopia became a major recipient country of ODA and foreign aid.Howevere, this capital flow has not brought the anticipated goals to the national economy. When we talk about manufacturing sector, the structural transformation in production and export are weak. The manufacturing production is not based on advanced technology and not in a position to reduce the gaps of trade deficits, due to highly dependent on imported materials. Ultimately, the economy still depend on traditional subsistence farming and rain fed agriculture.Industralization is key to achieve sustainable economic development and to maintain this impressive growth the economy need to shift from low to high productive sectors. Cognizant of this structural challenge, the current government has set the industry sector to play a key role in the five years of growth and transformation plan (GTP).
+As shown in figure above, in Ethiopia, the manufacturing sector value added to GDP ratio is by far the lowest compared to that of the neighboring countries such as Kenya, Rwanda, Sudan, and Uganda. In 2011, the share of the manufacturing sector value-added was 3.6 percent of GDP in Ethiopia. This is about eight times lower than the average of the developing East Asia & Pacific countries and over three times lower than the average of heavily indebted poor countries and Sub-Saharan Africa. (EEA,2013)
+
+Figure 1: Manufacturing Value Added (Percent of GDP) in Selected Countries
+
+Today, foreign direct investment became among the best option for Ethiopia and developing countries in general.FDI not only brings financial flows but also skills and technology to boost the national economy. Though, FDI in Ethiopia is in the lowest state, it showed a great promise in the future. Recently, relative political and economic improvement helps the country to receive high FDI growth performance. According to, The World Investment Report released in 2014, revealed that Ethiopia was the third largest recipient of foreign direct investment (FDI) in Africa in 2013, with a 240pc increase from the amount in 2012. The country has also registered a significant increase in their Foreign Direct Investment (FDI) stock – the amount of investment from aboard held within the economy. Given the above two information regarding manufacturing and FDI in Ethiopia, therefore, it is timely to investigate the relationships between these two variables. 
+
+######1.3: Objective of the Study
+1. To analyze the inter-relationship between FDI in manufacturing sector over the period of 1992-2013. 
+2. To identify the structure, challenges and opportunities of FDI in the manufacturing sector.
+Specific objective 
+1. To examine the past performance of FDI and its future trends.
+4. To look its advantage and disadvantage of FDI in the Manufacturing Sector in Ethiopia.
+
+######1.4: Scope of the study
+The scope of the research will be to investigate the relationship between FDI and manufacturing growth rate and its determinant factors In Ethiopiaat macro level only.
+1.6: Foreign direct investment and Economic development Conceptual frame work
+No country has achieved industrialization without a massive foreign direct investment, especially late industrial countries.UK easssy on economics papper work pointed out that,FDI not only brings capital inflows but also other packages of economic benefits: employement,human capital development ,export market ,technology and enterperenership skills and spill over effects. 
+”FDI transfers a bundle of assets such as capital, technology, and management skills which can contribute to the economic development of host countries “The impact of FDI on the process of economic development has been discussed at length since the late 1960s.1 More recently, a significant increase in FDI flows towards developing and emerging economies, and concerns about the practices of MNEs have contributed to the resurgence of both theoretical and policy debates. Although economic models can help assess costs and benefits of private capital inflows, the role of FDI in development remains unsettled. The question is not merely academic since an increasing number of countries have implemented policies for attracting international investments, by providing financial incentives and granting special tax allowances. Investment liberalization has been and remains an engine for economic growth and forIntegrating developing countries into the world economy. The potential benefits of foreign direct investment (FDI) can come through several channels. FDI is an important source of financing of domestic capital needs and compared with other forms of private capital flows – e.g. portfolio equity and debt flows. FDI is more stable. FDI allows the transfer of technology. Multinational enterprises – the main drivers of FDI – are a powerful and effective means to disseminate technology from developed to developing countries, and are often the only source of new and innovative technologies that are usually not available through the market. Technology disseminated through FDI generally includes the ‘entire package’ including experts, skills and the financial resources to exploit the technology appropriately. Other potential benefits of FDI for host countries include increased competition in input and product markets; human capital development and higher wages; and improvement in corporate governance standards and legal traditions”. (OECD, 2001)
+To benefit the impacts and the opportunity of FDI, it is a precondition to address the challenges faced by FDI attractiveness to a given country.There are different empirical research has conducted on the determinant factor for FDI in developing and developed countries. 
+Onyeiwu and Shrestha(2004)argues that despite economic and institutional reform inAfrica during the past decade, the flowof Foreign Direct Investment (FDI) to the region continues tobe disappointing and uneven. In their study they use the fixed and random effects modelsto explore whether the stylized determinants of FDI affect FDIflows to Africa in conventional ways. Basedon a panel dataset for 29 African countries over the period 1975 to 1999, their paper identifies the followingfactors as significant for FDI flows toAfrica: economic growth, inflation, openness of the economy, international reserves, and natural resourceavailability. Contrary to conventional wisdom,political rights and infrastructures were found to be unimportant for FDI flows to Africa. The significanceof a variable for FDI flows to Africa wasfound to be dependent on whether country- and time-specificeffects are fixed or stochastic.
+Most empirical paper showed that, more than half of FDI inflow has been depend on government policy towards FDI, political stability and agreement, and natural resource as the case of Africa. The above table will summarize these challenges based on different literature.
+
+Table 1: Impact, opportunities and Challenges of FDI in the manufacturing sector
+
+######1.5: Methodology of the Study
+Descriptive approach: Ratios, frequency, tables, and Graphs will be used based on reports on foreign direct investment from different sources. This approach will help to see the impact of FDI and its structure on the manufacturing sectors.
+Qualitative Approach:
+Econometrics model will be develop based on the above literature review .This model will help to answer our research question that, whatdetermines the inflow of FDI in the manufacturing sector in Ethiopia. Note that, because of data constraints, were not possible to include all factors in the model.However,this model considers almost all of the variables from a research  work on Determinant of FDI on African economies by United Nations Conference on Trade and Development (UNCTAD) study work 
+
+Proposed Econometric Model:
+   	(1)
+		RES	Natural resources: according to United Nations Conference on Trade and Development (UNCTAD) study work, FDI is mostly driven by natural resource in Africa.thus,It is necessary to control natural resource in the model. Due to lack of detail data, Mineral and quarrying sector share has included capturing the availability of natural resource endowment in Ethiopia.
+             Size     Market size; Many investors are looking for a big market and a large number of middle income consumers for decision to invest in the host country. Based on many literature population size and GDP are used to capture the market size. Here per capital income will be used where by GDP at current price/population.
+            Wage labor cost: Production cost is another factor for the allocation of a firm for a given place. There are direct and indirect production cost in the manufacturing sector which is production cost directly/indirectly related to the production process. Due to lack of comprehensive data, relative labor cost (relative nominal wage) will be used as a proxy for this variable. As the relative wage rate decrease, it would attract more FDI.
+       Human Capital: it is a broad concept, however, healthy and educated society will attract more FDI than the reverse.More educated and healthy person are more likely to adopt new technology and can quickly learn. Educationenrollment and expenditure on healthy will be used to capture human capital.
+
+ Openness: countries that, are liberalized and open to the international market, would attract more FDI. The ratio of import/export as a percentage of GDP will be deployed to capture countries openness to the international market.
+Crisis (instability): Africa in general and Ethiopia in particular has suffered with frequent instability in terms of political, financial and economic crisis. Thus consequently, many research showed ,this factor affects the attractiveness of FDI in the continent .multinational companies(MNC) will look low level of risk ,macroeconomic stability, and autocratic red tapes to allocate their investment in a given countries. We use Political Risk Services International Country Risk Guide (PRS) which ranks countries based on different risk factors low, regulation, corruption, political, economic, and financial risks. Beside it considers countries external and internal conflicts.
+The expected estimated coefficients are:
+ 	
+Dependent Variable: foreign direct investment capital inflow in to the manufacturing sector from 1992-2013.Based on the nature of data, log transformation will be used on specific variables.
+		
+######1.6: Source of the Data
+Major source of the data is Ethiopian investment Authority .This institutes will proved Foreign direct investment data in terms of trend, structure, and source of origin of the manufacturing sector. Central statistics agency has collected and analyzed annual survey on the manufacturing sector. United Nations Conference on Trade and Development (UNCTAD) reports on FDI.Ministry of finance and economic development of Ethiopia on national accounts statistics.
+
+######1.7: Structure of the Thesis –
+
+## References
+
+
